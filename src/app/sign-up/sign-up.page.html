@@ -1,0 +1,70 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons class="ion-padding-start" slot="start" routerLink="/home">
+      <ion-icon name="arrow-back-outline" class="ion-x2" color="appcolor"> </ion-icon>
+    </ion-buttons>
+    <ion-title class="ion-text-center" color="appcolor">Sign Up</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-row class="margin-top">
+    <ion-col class="ion-text-center ion-padding-horizontal ion-padding-vertical">
+      <ion-text color="medium">
+        Wammer Turns Sharing Fun Photos and Videos with Your Friends Into a Game
+      </ion-text>
+    </ion-col>
+  </ion-row>
+  <!-- Register form -->
+  <ion-list class="list-form ion-padding-horizontal">
+    <ion-item class="animated fadeInUp ion-no-padding">
+      <ion-label position="floating" color="lable">
+        First Name
+      </ion-label>
+      <ion-input color="lable" type="text"></ion-input>
+    </ion-item>
+    <ion-item class="animated fadeInUp ion-no-padding">
+      <ion-label position="floating" color="lable">
+        Last Name
+      </ion-label>
+      <ion-input color="lable" type="text"></ion-input>
+    </ion-item>
+    <ion-item class="animated fadeInUp ion-no-padding">
+      <ion-label position="floating" color="lable">
+        Email
+      </ion-label>
+      <ion-input color="lable" type="email"></ion-input>
+    </ion-item>
+    <ion-item class="animated fadeInUp ion-no-padding">
+      <ion-label position="floating" color="lable"> 
+        Password
+      </ion-label>
+      <ion-input color="lable" type="password"></ion-input>
+      <ion-icon name="eye-off" class="ion-padding-vartical" color="appcolor" slot="end" align-self-center></ion-icon>
+    </ion-item>
+  </ion-list>
+  <ion-row class="margin-top">
+    <ion-col class="ion-text-center ion-padding-horizontal ion-padding-vertical">
+      <ion-text>
+        By continuing you agree to the Wammer <a href="#">Terms of Service</a> and <a href=#>Privacy Policy</a>
+      </ion-text>
+    </ion-col>
+  </ion-row>
+</ion-content>
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-grid class="btn-group">
+      <ion-row>
+        <ion-col size="6">
+          <ion-button expand="block" color="appcolor">
+            Back
+          </ion-button>
+        </ion-col>
+        <ion-col size="6">
+          <ion-button expand="block" fill="outline" color="appcolor">
+            Next
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-toolbar>
+</ion-footer>
